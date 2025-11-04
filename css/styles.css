@@ -30,6 +30,8 @@ body {
 
 
 
+
+
 .header_section {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -124,10 +126,14 @@ body {
 
 
 .main_section {
-    background-color: #2e2f42; 
+    background-color: #2e2f42;
     letter-spacing: 0.02em;
     padding: 188px 0;
     text-align: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url('../images/people_office.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section_title {
@@ -157,6 +163,8 @@ body {
 .cta_button:focus {
     background-color: #404BBF; 
 }
+
+
 
 
 
