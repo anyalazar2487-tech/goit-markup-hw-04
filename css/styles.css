@@ -12,6 +12,7 @@ a{
 
 img {
     display: block;
+    object-fit: cover;
 }
 
 body {
@@ -156,6 +157,14 @@ body {
 .cta_button:focus {
     background-color: #404BBF; 
 }
+
+
+
+
+
+
+
+
 
 
 
