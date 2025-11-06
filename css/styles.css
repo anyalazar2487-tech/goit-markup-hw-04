@@ -277,8 +277,12 @@ body {
     border-radius: 50%;
     gap: 24px;
     padding-top: 8px;
-    color: #F4F4FD;
+    fill: #F4F4FD;
     background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 
