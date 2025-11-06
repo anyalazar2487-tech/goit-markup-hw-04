@@ -410,6 +410,30 @@ body {
     max-width: 264px;
 }
 
+.footer_social_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px; 
+}
+
+.footer_icon {
+    border-radius: 50%;
+    gap: 24px;
+    fill: #F4F4FD;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 
