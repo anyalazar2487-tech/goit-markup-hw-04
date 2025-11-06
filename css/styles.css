@@ -272,6 +272,19 @@ body {
      color: #434455; 
 }
 
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    gap: 24px;
+    padding-top: 8px;
+    fill: #4D5AE5;
+}
+
+
 
 
 
