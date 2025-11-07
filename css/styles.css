@@ -37,6 +37,7 @@ body {
 
 .header_section {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header_container {
@@ -88,6 +89,7 @@ body {
     padding: 24px 0;
     text-decoration: none;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .contact_info {
@@ -109,6 +111,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .navi_link:hover,
@@ -118,9 +121,29 @@ body {
 
 .contact_link:hover,
 .contact_link:focus {
-
-    color: #404bbf; 
+  color: #404bbf; 
 }
+
+.navi_link.current {
+    position: relative;
+     color: #404bbf; 
+}
+
+.navi_link.current::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color:#404bbf ;
+    border-radius: 2px;
+}
+
+
+
+
+
 
 
 
@@ -213,6 +236,23 @@ body {
     letter-spacing: 0.02em;
     color: #434455; 
 }
+
+.box {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+}
+
+.main_box {
+    text-align: center;
+}
+
+
+
+
+
 
 
 
