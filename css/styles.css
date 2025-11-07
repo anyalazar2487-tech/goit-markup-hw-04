@@ -309,9 +309,8 @@ body {
 }
 
 .icon {
-    display: inline-flex;
+    display: flex;
     border-radius: 50%;
-    gap: 24px;
     padding-top: 8px;
     fill: #F4F4FD;
     background-color: #4D5AE5;
@@ -319,6 +318,13 @@ body {
     height: 40px;
     justify-content: center;
     align-items: center;
+}
+
+.social_icons {
+    margin-top: 8px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
 }
 
 
