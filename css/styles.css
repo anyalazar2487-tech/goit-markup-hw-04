@@ -327,6 +327,10 @@ body {
     justify-content: center;
 }
 
+.social_icons.icon {
+    width: 11px;
+    height: 11px;
+}
 
 
 
