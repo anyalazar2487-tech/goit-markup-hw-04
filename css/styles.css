@@ -531,6 +531,11 @@ body {
     fill: #f4f4fd; 
 }
 
+.footer_conteiner {
+    display: flex;
+    align-items: baseline;
+}
+
 
 
 
